@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" />
+	<title>Weather App</title>
+</head>
+
+<body>
+	<div class="bg-image"></div>
+	<div class="card">
+		<div class="background-image"></div>
+		<div class="search">
+			<input type="text" placeholder="Enter city name" spellcheck="false" />
+			<button><i class="bi bi-search"></i></button>
+		</div>
+		<div class="error">
+			<p>Invalid city name</p>
+		</div>
+		<div class="weather">
+			<i class="bi bi-cloud-drizzle-fill"></i>
+			<h1 class="temp"></h1>
+			<h2 class="city"></h2>
+			<div class="details">
+				<div class="col">
+					<i class="bi bi-water"></i>
+					<div>
+						<p class="humidity"></p>
+						<p>Humidity</p>
+					</div>
+				</div>
+				<div class="col">
+					<i class="bi bi-wind"></i>
+					<div>
+						<p class="wind"></p>
+						<p>Wind Speed</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
